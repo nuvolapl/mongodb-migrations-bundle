@@ -20,7 +20,7 @@
     "require": {
         "php": "^7.1 | ^8.0",
         "doctrine/mongodb-odm-bundle": "^3.0 || ^4.0",
-        "doesntmattr/mongodb-migrations": "dev-master",
+        "doesntmattr/mongodb-migrations": "dev-php80",
         "symfony/console": "^3.4 || ^4.0 || ^5.0",
         "symfony/framework-bundle": "^3.4 || ^4.0 || ^5.0"
     },
