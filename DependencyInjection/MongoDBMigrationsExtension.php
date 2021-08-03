@@ -12,8 +12,8 @@
 namespace AntiMattr\Bundle\MongoDBMigrationsBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
-use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
@@ -23,9 +23,6 @@ class MongoDBMigrationsExtension extends Extension
 {
     /**
      * Responds to the migrations configuration parameter.
-     *
-     * @param array            $configs
-     * @param ContainerBuilder $container
      */
     public function load(array $configs, ContainerBuilder $container)
     {

@@ -46,7 +46,7 @@ final class CommandHelper
     }
 
     /**
-     * @param null|string $dmName
+     * @param string|null $dmName
      */
     public static function setApplicationDocumentManager(Application $application, $dmName): void
     {

@@ -11,16 +11,22 @@
     "conflict": {
         "antimattr/mongodb-migrations-bundle" : "*"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nuvolapl/mongodb-migrations"
+        }
+    ],
     "require": {
-        "php": "^7.1",
-        "doesntmattr/mongodb-migrations": "^3.0",
+        "php": "^7.1 | ^8.0",
         "doctrine/mongodb-odm-bundle": "^3.0 || ^4.0",
-        "symfony/framework-bundle": "^3.4 || ^4.0 || ^5.0",
-        "symfony/console": "^3.4 || ^4.0 || ^5.0"
+        "doesntmattr/mongodb-migrations": "dev-master",
+        "symfony/console": "^3.4 || ^4.0 || ^5.0",
+        "symfony/framework-bundle": "^3.4 || ^4.0 || ^5.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.0",
-        "phpunit/phpunit": "^7.0"
+        "phpunit/phpunit": "^7.0 | ^8.0"
     },
     "autoload": {
         "psr-4": {
